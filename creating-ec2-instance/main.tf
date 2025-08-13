@@ -12,11 +12,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "prash_ec2" {
-  ami           = "ami-0f918f7e67a3323f0"
+  ami           = "ami-0f918f7e67a3323f0" 
   instance_type = "t2.micro"
-  key_name      = "not_ec2_key"  
+  key_name      = "not_ec2_key"  #you need to create a key before creation of the ec2
 
   tags = {
     Name = "Terraform_from_EC2"
   }
 }
+
