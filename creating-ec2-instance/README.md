@@ -11,7 +11,7 @@ It shows each step with screenshots.
 
 Here is the AWS EC2 dashboard before creating the instance.
 
-![AWS Dashboard Before Creation](/aws-for-luddites/creating-ec2-instance/images/aws_dashboard_before_creation.png)  
+![AWS Dashboard Before Creation](images/aws_dashboard_before_creation.png)  
 *This is the AWS dashboard after the instance is created.*
 
 ---
@@ -23,7 +23,7 @@ Run the command:
 ```bash
 terraform init
 ```
-![terraform init](/aws-for-luddites/creating-ec2-instance/images/terraform_init_ec2.png)
+![terraform init](images/terraform_init_ec2.png)
 
 This command downloads the necessary Terraform plugins and sets up the working directory.
 
@@ -34,7 +34,7 @@ Run the command:
 ```bash
 terraform plan
 ```
-![terraform plan](/aws-for-luddites/creating-ec2-instance/images/terraform_plan_ec2.png)  
+![terraform plan](images/terraform_plan_ec2.png)  
 
 This shows what Terraform will create, without making any changes yet.
 
@@ -44,13 +44,13 @@ Run the command:
 ```bash
 terraform apply
 ```
-![terraform apply](/images/terraform_apply_ec2.png)  
+![terraform apply](images/terraform_apply_ec2.png)  
 
 This command creates the EC2 instance in AWS.
 
 ## 5. AWS Dashboard After Creation
 
-![AWS Dashboard Creation](/aws-for-luddites/creating-ec2-instance/images/aws_dashboard_created.png)  
+![AWS Dashboard Creation](images/aws_dashboard_created.png)  
 
 You can now see the new EC2 instance in the AWS dashboard.
 
@@ -61,13 +61,13 @@ Run the command:
 ```bash
 terraform destroy
 ```
-![AWS Dashboard Delete](/aws-for-luddites/creating-ec2-instance/images/terraform_destroy_ec2.png)  
+![AWS Dashboard Delete](images/terraform_destroy_ec2.png)  
 This command will delete the EC2 instance.
   
 
 ## 7. Destroy Confirmation
 
-![AWS Dashboard Delete2](/aws-for-luddites/creating-ec2-instance/images/terraform_destroy2_ec2.png)
+![AWS Dashboard Delete2](images/terraform_destroy2_ec2.png)
 Terraform asks for confirmation before deleting the resources.
 
 ## 8. AWS Dashboard After Deletion
