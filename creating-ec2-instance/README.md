@@ -44,7 +44,7 @@ Run the command:
 ```bash
 terraform apply
 ```
-![terraform apply](/aws-for-luddites/creating-ec2-instance/images/terraform_apply_ec2.png)  
+![terraform apply](/images/terraform_apply_ec2.png)  
 
 This command creates the EC2 instance in AWS.
 
