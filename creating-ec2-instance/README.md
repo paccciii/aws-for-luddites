@@ -72,7 +72,7 @@ Terraform asks for confirmation before deleting the resources.
 
 ## 8. AWS Dashboard After Deletion
 
-![AWS Dashboard after deletion](creating-ec2-instance/images/aws_dashboard_destroyed.png)
+![AWS Dashboard after deletion](images/aws_dashboard_destroyed.png)
 The EC2 instance is now deleted from AWS.
 
 ## Conclusion
